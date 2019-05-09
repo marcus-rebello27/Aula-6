@@ -1,0 +1,31 @@
+---
+title: "Teste de Formatação"
+output: 
+  rmdformats::readthedown:
+    toc_depth = 3
+  ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introdução
+Esteartigo é sobre crescimento populacional que usaa seguinte fórmula
+
+
+
+Este é o titulo 1
+
+## Primeiros Passos
+
+Outro nível de título
+
+### Mais uma subseção
+
+Teste
+
+```{r,echo=F,out.width="50%",fig.align="center"}
+knitr::include_graphics("img-mprj.png")
+
+```
+
