@@ -60,4 +60,27 @@ df %>% ggplot(aes(x = displ, y = hwy)) +
   geom_point() + 
   facet_wrap(vars(cyl,drv), nrow = 3)  
 ```
+```{r}
+library(ggplot2)
+library(dplyr)
+library(gapminder)
+
+```
+
+```{r}
+df<-gapminder
+# instale o pacote se necessário: install.packages(...)
+
+
+
+# agora que você carregou o pacote, o objeto gapminder pode ser acessado. Dê uma olhada:
+head(df)
+
+
+```
+
+```{r}
+# quantas linhas?
+df %>% nrow()
+```
 
